@@ -7,7 +7,7 @@ describe('App Navigation', () => {
     const { getByText } = render(<App />);
     
     // Since HomeScreen is the initial screen, test for any known text from HomeScreen
-    // Replace 'Quran App' or another identifiable text from your HomeScreen
+   
     expect(getByText('Surah List')).toBeTruthy();
     expect(getByText('Settings')).toBeTruthy();
   });
